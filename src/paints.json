@@ -1,0 +1,110 @@
+[
+    {
+        "id":0,
+        "title":"Alberto",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Alberto%20Canto%20(2).webp?alt=media&token=77d7b1c2-0ac7-49a7-8d66-c676d6a0cc55"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":40,"y":60},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":0, "title":"30.000"},
+        "price": 120000
+    },
+    {
+        "id":1,
+        "title":"Almendra",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Almendra%20(2).webp?alt=media&token=cbb69f1e-9891-4fa6-b4b9-ca1d02c5b179"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":40,"y":60},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":0, "title":"Retratos"},
+        "price": 140000
+    },
+    {
+        "id":2,
+        "title":"Andrea",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Andrea%20(3).webp?alt=media&token=5dadd364-25bb-49bf-854c-2f4e797d011c"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":40,"y":60},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":3, "title":"Hollywood"},
+        "price": 100000
+    },
+    {
+        "id":3,
+        "title":"Carlos",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Carlos%20(2).webp?alt=media&token=9fc15cdb-c394-4782-8878-bd7cdcc58ec6"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":40,"y":60},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":1, "title":"30.000"},
+        "price": 90000
+    },
+    {
+        "id":8723,
+        "title":"Caterina",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Caterina%20(2).webp?alt=media&token=9ab64a0b-17a1-480e-ba3c-6e8f249e9772"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":90,"y":60},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":2, "title":"Los dueños de la tierra"},
+        "price": 140000
+    },
+    {
+        "id":654,
+        "title":"Cristina",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Cristina%20(2).webp?alt=media&token=7f1203a8-896c-49f6-94b6-3d74e29e1397"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":90,"y":60},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":3, "title":"Hollywood"},
+        "price": 140000
+    },
+    {
+        "id":666,
+        "title":"Camila",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Camila%20(3).webp?alt=media&token=3e61d79b-2496-4282-8d22-95916f27b22e"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":40,"y":40},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":0, "title":"Retratos"},
+        "price": 150000
+    },
+    {
+        "id":100,
+        "title":"Pablo",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Pablo%20(2).webp?alt=media&token=24b9f77c-e5e1-42c8-a6cd-c9e7f51e11f3"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":40,"y":40},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":0, "title":"Retratos"},
+        "price": 150000
+    },
+    {
+        "id":101,
+        "title":"Micaela",
+        "img":["https://firebasestorage.googleapis.com/v0/b/gabriel-villot.appspot.com/o/Micaela%20(3).webp?alt=media&token=da6561cf-38a9-444d-b45e-8b4b4ff6b08e"],
+        "detail":{
+            "material":"Tela",
+            "size":{"x":40,"y":40},
+            "tecnic":"Tinta"
+        },
+        "serie":{"id":0, "title":"Retratos"},
+        "price": 150000
+    }
+]

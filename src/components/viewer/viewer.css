@@ -1,0 +1,6 @@
+body > div > div > div.react-viewer-canvas > img{
+
+ object-fit: contain !important;   
+
+}
+

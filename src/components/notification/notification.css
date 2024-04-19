@@ -1,0 +1,38 @@
+.notification {
+    position: fixed;
+    bottom: 20px; /* Ajusta según tu preferencia */
+    right: 20px; /* Ajusta según tu preferencia */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 5000;
+    max-width: 20rem;
+  }
+  
+  .notification.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  @media only screen and (max-width:768px) {
+    .notification {
+        width: 100%;max-width: 100%;
+        font-size: 22px;
+        padding: 1.5rem;
+        line-height: 1.2;
+        right: auto;
+    }
+    .notification.show {
+        width: 100%;max-width: 100%;
+        font-size: 22px;
+        padding: 1.5rem;
+        line-height: 1.2;
+        right: auto;
+
+    }
+  }

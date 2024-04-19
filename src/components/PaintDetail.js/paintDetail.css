@@ -1,0 +1,151 @@
+.paint-container{
+    width: 100%;
+    margin: 5rem 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 4rem;
+}
+.paint-container .paint-header {
+    
+ 
+    padding: 0 10rem 0.5rem;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.paint-container .paint-body {
+    width: 100%;
+    
+    display: flex;
+    justify-content:center; align-items: center;
+}
+.paint-container .paint-body .img-visualize{
+    width: 50%;
+    height: 100%;
+}
+.paint-container .paint-body .img-visualize .carousel-inner .carousel-item{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}   
+.paint-container .paint-body .img-visualize .carousel-inner .img {
+    cursor:zoom-in;
+    max-width: 100%;
+    margin-left: auto; margin-right: auto;
+ 
+}
+
+.paint-container .paint-body .info {
+    width: 50%;
+    margin-left: 0.5rem;
+}
+.paint-container .paint-body .info .body {
+    font-size: 20px;
+    font-weight: 400;
+
+    padding: 1rem 0.5rem;
+    padding-right: 2rem;
+    text-align: left;
+
+    color: rgb(0, 0, 0);
+    line-height: .9;
+    
+}
+.paint-container .paint-body .info .title {
+
+    padding: 0.5rem;
+    color: black;
+
+
+}
+.paint-container .paint-body .info  .title h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    padding: 0.5rem 1rem 0.5rem 0;
+    width: auto;
+}
+.paint-container .paint-body .info  .title h1{
+
+    font-size: 42px;
+    line-height: 0.8;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.paint-container .paint-body .info button {
+    font-size: 24px;
+    font-weight: 300;
+    color: black;
+    padding: 0.5 rem 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+.paint-container .paint-body .info button:hover {
+    background-color: rgba(0, 0, 0, 0.724);
+}
+.paint-container .paint-body .info .body .detail{
+    
+}
+
+.paint-container .paint-body .info .body .detail .detail-item{
+    display: flex;
+    margin-bottom: 0.5rem;
+    margin-top: .5rem;
+}
+.paint-container .paint-body .info .body .detail .detail-item p{
+    font-size: 20px;
+    margin: 0;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width:500px){
+    .paint-container{
+        margin-bottom: 8rem;
+        padding: 1rem;
+    }
+    .paint-container .paint-body{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .paint-container .paint-body .img-visualize {
+        width: 100%; height: 100vw;
+        margin-bottom: 1rem;
+    }
+    .paint-container .paint-body .img-visualize .carousel-inner{
+        display: flex; align-items: center; justify-content: center;
+    }
+    .paint-container .paint-body .img-visualize .carousel-inner .img {
+        max-width: 100%;
+        margin-left: auto;margin-right: auto;
+        margin-top: 3rem;
+    }
+
+    .paint-container .paint-body .img-visualize .carousel-inner {
+        display: block;
+    }
+
+
+    .paint-container .paint-body .info {
+        width: 100%;
+        padding: 1rem 0.5rem; margin: 0;
+    }
+
+    .paint-container .paint-body .info .body .price p{
+        font-size: 24px;
+    }
+
+    .paint-container .paint-body .info button {
+        width: 100%;
+        margin: 0;
+        padding: 0.5rem;
+    }
+}

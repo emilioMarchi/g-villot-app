@@ -1,0 +1,73 @@
+.contact-container {
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+    margin: 5rem 0.5rem 2rem;
+}
+.contact-container .contact-item {
+    display: flex; justify-content: space-evenly; align-items: center;
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-bottom: 0.5rem;
+    height: 3rem;
+    border: 1px solid black;
+}
+.contact-container .contact-item a {
+    color: black;
+    display: flex; justify-content: start; align-items: center;
+    width: 90%;
+}
+.contact-container .contact-item a .icon {
+    font-size: 28px;
+}
+.contact-container .contact-item a p {
+    font-size: 18px;
+    margin: 0;
+    padding-left: 0.5rem;
+}
+
+.contact-container .contact-item .copy-icon {
+    color: black;
+    font-size: 24px;
+    
+}
+.notification {
+    position: fixed;
+    bottom: 20px; /* Ajusta según tu preferencia */
+    right: 20px; /* Ajusta según tu preferencia */
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 5000;
+  }
+  
+  .notification.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+@media only screen and (min-width:900px) {
+    .contact-container{
+        flex-direction: row;
+    }
+    .contact-container .contact-item:hover{
+        background-color: rgba(0, 0, 0, 0.312);
+        cursor: pointer;
+    }
+    .contact-container .contact-item:hover > a .icon{
+
+        color: white;
+ 
+    }
+    .contact-container .contact-item:hover > a p{
+
+        color: white;
+ 
+    }
+    .contact-container .contact-item:hover > .copy-icon{
+        color: white;
+    }
+}

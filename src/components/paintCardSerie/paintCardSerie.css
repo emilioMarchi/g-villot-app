@@ -1,0 +1,127 @@
+.paint-card-serie {
+    display: flex;flex-direction: column;
+    margin-left: auto; margin-right: auto;
+    cursor: pointer;
+    align-items: center;justify-content: center;
+   
+    background-color: white;
+    margin-bottom: 1rem;
+   
+}
+.slick-slider {
+    display: flex; justify-content: center; align-items: center;
+}
+.paint-card-serie .img-container {
+     height: 20rem; width: 20rem;
+     max-width: 100%;
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+
+.paint-card-serie .content {
+    color: white;
+
+}
+.paint-card-serie .content .title h3 {
+    font-family: 'Lora', serif;
+    font-size: 22px;
+    margin-top: 1rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paint-card-serie .content .title .detail {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  
+}
+.paint-card-serie .content .title .detail p {
+    padding: 0.5rem;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    line-height: 1;
+    font-size: 16px;
+    color: black;
+}
+.paint-card-serie .content .description h3 {
+    font-family: "Montserrat";
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: .8;
+    color: rgb(255, 255, 255);
+}
+.paint-card-serie .content .link {
+    font-size: 22px;
+    font-weight: 200;
+    -webkit-text-decoration: line;
+    text-decoration: line;
+    color: rgb(72, 85, 92);
+    padding: 0 1rem;
+    border: none;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+.paint-card-serie .content {
+    text-align: center;
+}
+
+.paint-card-serie .content .description h3 {
+    padding-top: 1rem;
+    height: 5rem;
+}
+.paint-card-serie .content .link {
+    justify-content: center;
+}
+
+.paint-card-serie .card-footer {
+   
+}
+.paint-card-serie .card-footer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0);
+    width:100%;
+
+}
+.paint-card-serie .card-footer .footer-item p {
+    height: 3rem;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+#root > div > div.home.page > div.paints-slider > div > ul > li.slick-active > button{
+    color: white;
+}
+
+@media only screen and (min-width:768px){
+    .paint-card-serie {
+    
+        width: 10rem;
+        margin: 1rem 0;
+        padding: 1rem;
+        justify-content: baseline;
+        transition: transform 0.5s ease;
+
+        flex-grow: 1; /* Permite que los elementos crezcan */
+        flex-basis: calc(33.33% - 20px); /* Tamaño base de cada elemento */
+        margin: 10px; /* Espacio entre los elementos */
+        max-width: calc(33.33% - 20px); /* Ancho máximo para asegurar que solo haya 3 elementos por fila */
+        box-sizing: border-box; 
+    }
+    .paint-card:hover {
+        transform: translateY(-5px) scale(1.05); /* Desplazar hacia arriba y escalar */
+    }
+}
+@media only screen and (min-width:901px){
+    .paint-card-serie:hover {
+        transform: translateY(-5px) scale(1.05); /* Desplazar hacia arriba y escalar */
+      }
+}

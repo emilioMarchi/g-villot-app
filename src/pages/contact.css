@@ -1,0 +1,17 @@
+.contact {
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.contact .contact-header  {
+    height: 35vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media only screen and (min-width:900px){
+    
+    .contact .contact-header {
+        height: 50vh;      
+    }
+    
+}

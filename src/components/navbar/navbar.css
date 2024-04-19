@@ -1,0 +1,253 @@
+#navbar {
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+}
+.nav-logo img {
+    width: 5rem;
+}
+.toolbar {
+    justify-content: space-between;
+}
+#navbar > div > div > a {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lora',serif;
+}
+
+
+.menu-item-xl {
+    font-family: 'Montserrat', serif;
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    font-style: none;
+    padding: 1rem .5rem;
+    border-radius: 0.5rem;
+    font-size: 18px;
+}
+.menu-item-xl:hover {
+    color: rgb(255, 141, 141);
+}
+.menu-item a{
+    font-family: 'Lora', serif;
+    text-decoration: none;
+    font-style: none;
+    color: rgb(8, 8, 8);
+
+    font-size: 20px;
+}
+.menu-item a:hover{
+    text-decoration: none;
+    font-style: none;
+    color: rgb(90, 106, 107);
+}
+.menu-item .desk {
+    display: none;
+}
+
+
+/*icono carrito*/
+
+
+  
+  .cart-icon-container .cart-icon {
+    color: rgb(8, 8, 8);
+  }
+  .cart-icon-container .cart-icon.color {
+    color: rgb(255, 141, 141);
+}
+  
+
+  .cart-count {
+    position: absolute;
+    top: 4px; /* Ajusta la posición vertical según sea necesario */
+    right: -4px; /* Ajusta la posición horizontal según sea necesario */
+    background-color: rgb(255, 68, 68);
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px; /* Ajusta el tamaño de la fuente según sea necesario */
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con opacidad */
+    z-index: 500; /* Asegura que la capa esté por encima de todo */
+
+}
+
+@media only screen and (max-width: 467px){
+    #navbar > div > div > a {
+        font-size: 24px;
+    }
+    #navbar > div > div > div:nth-child(3) > div > svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(8, 8, 8);
+    }
+
+    .cart-count {
+        position: absolute;
+        top: 4px;
+        right: 55px;
+        background-color: rgb(255, 68, 68);
+        color: white;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    .cart-container {
+        width: 100%;
+        padding: 1rem;
+        background-color:rgb(8, 8, 8);
+        color: white;
+    }
+    .cart-icon-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart-icon.color {
+        color: rgb(255, 141, 141);
+    }
+    .cart-icon-container svg {
+        font-size: 36px;
+    }
+
+    #navbar > div > div > div.MuiBox-root.css-1m04nb5 > button > svg {
+        color: rgb(8, 8, 8);
+        font-size: 36px;
+    }
+    #navbar > div > div > div.MuiBox-root.css-1m04nb5 > button > svg.color{
+        color: rgb(255, 141, 141);
+    }
+
+    #navbar > div > div > div.menu-container.MuiBox-root.css-1m04nb5 > div.custom-menu {
+        position: fixed;
+        top: 5rem; left: 0;
+        max-width: 100%;
+        width: 100%;
+        padding: 0; margin: 0;
+        background-color: rgb(255, 255, 255);
+    }
+    #navbar > div > div > div.menu-container.MuiBox-root.css-1m04nb5 > div.custom-menu > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width: 478px) and (max-width: 900px){
+    #navbar{
+        height: 8rem;
+    }
+    #navbar > div > div > a {
+        font-size: 34px;
+    }
+    #navbar > div > div > div:nth-child(3) > div > svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(8, 8, 8);
+    }
+
+    .cart-container {
+        width: 100%;
+        top: 5rem;
+    }
+    .cart-icon-container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cart-icon-container .cart-icon {
+        font-size: 38px;
+    }
+    .cart-icon.color {
+        color: rgb(255, 141, 141);
+    }
+
+
+
+    #navbar > div > div > div.MuiBox-root.css-1m04nb5 > button > svg {
+        font-size: 40px;
+        color: rgb(8, 8, 8);
+    }
+    #navbar > div > div > div.MuiBox-root.css-1m04nb5 > button > svg.color{
+        color: rgb(255, 141, 141);
+    }
+
+    #navbar > div > div > div.menu-container.MuiBox-root.css-1m04nb5 > div.custom-menu {
+        position: fixed;
+        top: 5rem; left: 0;
+        max-width: 100%;
+        width: 100%;
+        padding: 0; margin: 0;
+        background-color: rgb(255, 239, 223);
+    }
+    #navbar > div > div > div.menu-container.MuiBox-root.css-1m04nb5 > div.custom-menu > li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #navbar > div > div > div.menu-container.MuiBox-root.css-1m04nb5 > div.custom-menu > li a {
+        font-size: 32px;
+    }
+
+    .cart-count {
+        right: auto;
+        margin-left: 2rem;
+    }
+}
+
+@media (min-width: 767px) {
+    #navbar {
+        height: 5rem;
+    }
+    #navbar > div > div > a:hover {
+        color: rgb(255, 141, 141);
+    }
+
+    .css-1t6c9ts {
+        padding-left: 2rem;
+    }
+
+    .cart-icon-container {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+    }
+    .cart-icon-container .cart-icon {
+        font-size: 28px;
+        color: rgb(8, 8, 8);
+      }
+      .cart-icon-container .cart-icon:hover {
+        color: rgb(255, 141, 141);
+        cursor: pointer;
+      }
+      .cart-icon-container .cart-icon.color {
+        color: rgb(255, 141, 141);
+    }
+      
+
+  
+}

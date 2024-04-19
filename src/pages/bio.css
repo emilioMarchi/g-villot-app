@@ -1,0 +1,45 @@
+.bio-container {
+
+}
+.bio-container .bio-header {
+    width: 100%;
+}
+.bio-container .bio-header .header-title {
+    
+    padding: 0.5rem;
+}
+.bio-container .bio-header .header-title p {
+    margin: 0;
+}
+.bio-container .bio-header .img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.bio-container .bio-body .title{
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+.bio-container .bio-body .title h2 {
+    font-size: 28px;
+    padding: 0 1.5rem;
+}
+.bio-container .bio-body p {
+    font-size: 22px;
+    padding: 0.5rem 1.5rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 900px) {
+    .bio-container .bio-header .header-title {
+    
+        padding: 1rem;
+    }
+    .bio-container .bio-body {
+        padding: 1rem 10rem;
+    }
+}

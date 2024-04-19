@@ -1,0 +1,36 @@
+.footer {
+    background-color: white;
+} 
+.footer ul{
+    margin: 0;
+    text-align: center;
+    padding: 2rem 0;
+} 
+.footer ul li{
+    list-style: none;
+    padding: 0.5rem;
+}
+.footer ul li a {
+    color: black;
+    font-family: 'Montserrat', serif;
+    text-decoration: none;
+    font-style: none;
+    font-size: 20px;
+}
+
+.footer .footer-footer p {
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.418);
+    cursor: pointer;
+}
+
+@media only screen and (min-width:768px){
+    .buy-info .items-info .item{
+        padding: 2rem;
+    }
+    .buy-info .items-info .item p {
+        padding: 0 1rem;
+    }
+}
