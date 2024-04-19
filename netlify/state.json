@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Santa Fe",
+			"country": {
+				"code": "AR",
+				"name": "Argentina"
+			},
+			"subdivision": {
+				"code": "S",
+				"name": "Santa Fe"
+			},
+			"timezone": "America/Argentina/Cordoba",
+			"latitude": -31.6466,
+			"longitude": -60.7101
+		},
+		"timestamp": 1713463985917
+	}
+}
